@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: center; /* Horizontally centers the form */
+  align-items: center; /* Vertically centers the form */
+  height: 100vh; /* Full viewport height */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Darker text color */
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Limits the maximum width of the form */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex; /* Arranges labels and inputs side-by-side */
+  align-items: center; /* Vertically aligns elements within .form-group */
+}
+
+label {
+  width: 120px;
+  text-align: right;
+  padding-right: 10px; /* Adds some space between label and input */
+  color: #333; /* Darker text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%; /* Full width within the form container */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; /* Adds space after form elements */
+  float: right; /* Aligns submit button to the right */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group.radio { /* Special styling for radio buttons */
+  display: block; /* Radio buttons stacked vertically */
+  /* Removed margin-left for left alignment */
+}
+
+.form-group.radio label {
+  width: auto; /* Allow radio labels to have their natural width */
+  text-align: left; /* Align text to the left */
+  padding-right: 0; /* Remove padding between label and radio button */
+}
+
+.form-group{
+  margin-bottom: 15px;
+  display: flex; /* Arranges labels and inputs side-by-side */
+  justify-content: center; /* Centers elements horizontally */
+}
