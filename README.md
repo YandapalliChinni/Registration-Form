@@ -41,14 +41,14 @@ XAMPP (Apache, MySQL, PHP, and Perl)
 
 ```bash
 
-git clone https://github.com/YandapalliChinni/farmtools.git
+git clone https://github.com/YandapalliChinni/Registration-Form.git
 ```
 
 Navigate into the cloned repository directory:
 
 ```bash
 
-cd farmtools
+cd Registration-Form
 ```
 
 **Setup XAMPP**
