@@ -41,7 +41,7 @@ XAMPP (Apache, MySQL, PHP, and Perl)
 
 ```bash
 
-git clone https://github.com/YandapalliChinni/farmtools.git
+git clone https://github.com/Chinni Yandapalli/farmtools.git
 ```
 
 Navigate into the cloned repository directory:
